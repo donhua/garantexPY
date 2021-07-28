@@ -1,11 +1,55 @@
 import requests
 
 
-class GarantexIo:
+class GarantexIo1:
     """Методы API Garantex.io"""
 
-    def __init__(self):
+    def __init__(self, url: str = 'https://garantex.io/api/v2/'):
+        self.url = url
+        self.url_node = ['markets',
+                         'currencies',
+                         'timestamps',
+                         'fees/withdraw/coin',]
+        self.markets = []
+        self.currencies = []
+        self.timestamps = ''
+        self.fee_coin = []
+
+    def Get_markets(self):
+        """Запрос возвращает список всех активных рынков"""
+        response_markets = requests.get(self.url+self.url_node[0])
+        self.markets = response_markets.json()
+
+    def Get_currencies_type(self, type_curr: str = ''):
+        """Запрос для получения списка криптовалют/фиат доступных для работы."""
+        type_currencies = ['coin', 'fiat']
+        if type_curr in type_currencies:
+            response_currencies = requests.get(self.url + self.url_node[1], params=type_curr)
+            self.currencies.append(response_currencies.json())
+        else:
+            for i in type_currencies:
+                response_currencies = requests.get(self.url + self.url_node[1], params=i)
+                self.currencies.append(response_currencies.json())
+
+    def Time_stamp(self):
+        """Запрос возвращает текущее время сервера"""
+        response_timestamps = requests.get(self.url + self.url_node[3])
+        self.timestamps = response_timestamps.json()
+
+    def Get_fee_coin(self):
+        """Запрос возвращает акутальные комиссии на вывод крипты"""
+        response_fee_coin = requests.get(self.url + self.url_node[3])
+        self.fee_coin = response_fee_coin.json()
+
+    def Get_gateway_types(self):
+        """Запрос возвращает список всех активных направлений ввода / вывода для фиата"""
         pass
+
+    def Get_trades(self, market_, ):
+        pass
+
+
+
 
 
 class GarantexIo:
