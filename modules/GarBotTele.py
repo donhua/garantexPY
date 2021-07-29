@@ -1,4 +1,6 @@
+
 import requests
+
 
 class GarBotTele:
     """телеграмм бот для торговли"""
@@ -9,19 +11,15 @@ class GarBotTele:
         self.url = 'https://api.telegram.org/bot'+self.token+'/'
         self.data = {'offset': self.offset, 'limit': 0, 'timeout': 0}
 
-
     def verefic(self):
         """проверка доступности телеги"""
         pass
 
     def getMe(self):
-        request = requests.get(self.url+'Message')
-        get_Me = request.json()['ok']
-        return get_Me
+        return requests.get(self.url+'getMe').json()['ok']
 
     def get_updates(self):
-        result = requests.get(self.url+'getUpdates', data=self.data).json()
-        return result
+        return requests.get(self.url+'getUpdates', data=self.data).json()
 
     def send_message(self, text1: str = "?"):
         send = {'chat_id': 681628513, 'text': text1}
@@ -30,10 +28,7 @@ class GarBotTele:
 
 def mee():
     me = GarBotTele('1945392418:AAGWcxG4QHLx0c0uFVVRc0oDdL1VU6WCr64')
-    i = 1
-    while i == 1:
-        t = input('Введи текст: ')
-        me.send_message(t)
+    me.send_message("Это сообщение говорит о том, что меня активировали со стороны скрипта и я готов работать!")
 
 
 if __name__ == '__main__':
