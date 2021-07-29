@@ -15,6 +15,10 @@ class GarantexIo1:
         self.timestamps = ''
         self.fee_coin = []
 
+    def verefic(self):
+        """проверка доступности сайта"""
+        pass
+
     def Get_markets(self):
         """Запрос возвращает список всех активных рынков"""
         response_markets = requests.get(self.url+self.url_node[0])
