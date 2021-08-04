@@ -3,33 +3,35 @@ import sqlite3 as sql
 
 class Gardb:
 
-    def __init__(self, namedb: str = 'gdb'):
+    def __init__(self, namedb: str = 'gdb.db'):
         self.namedb = namedb
         self.db = None
+        self.sq = ['create table if not exists student(roll_no integer PRIMARY KEY,first_name text,\
+                    last_name text, class text, stream text,address text)',]
 
     def Connectdb(self):
-        self.db = sql.connect(self.namedb)
+        try:
+            self.db = sql.connect(self.namedb)
+            print(f"Статус соединения с базой {self.namedb} - УСПЕШНО!")
+        except sql.Error:
+            print(sql.Error)
+        finally:
+            print('ok')
 
-
-    def Createdb(self):
-        self.db = sql.connect(self.namedb)
-        with self.db:
-            dbw = self.db.cursor()
-            dbw.execute("CREATE TABLE IF NOT EXISTS `test` ('id' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `name` STRING, `surname` STRING)")
-            dbw.execute("CREATE TABLE IF NOT EXISTS `curi` ('id' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `cur` STRING)")
-            dbw.execute("SELECT name FROM sqlite_master WHERE type='table';")
-            print(dbw.fetchall())
-            self.db.commit()
-
+    def Create_table(self):
+        cursor_object = self.db.cursor()
+        cursor_object.execute(self.sq[0])
+        self.db.commit()
+        print('yes')
+        self.db.close()
 
     def Deletedb(self):
-        self.db = sql.connect(self.namedb)
-        dbw = self.db.cursor()
         pass
 
 def mee():
     n = Gardb()
-    n.Createdb()
+    n.Connectdb()
+    n.Create_table()
 
 
 if __name__ == '__main__':
