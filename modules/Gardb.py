@@ -33,7 +33,7 @@ class Gardb:
                     );''',
                    ]
         logging.basicConfig(
-                            filename='../log/app.log',
+                            filename='../logger/app.log',
                             level=logging.INFO,
                             format='%(asctime)s-%(levelname)s-%(message)s',
                             )
