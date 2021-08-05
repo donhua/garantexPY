@@ -10,7 +10,7 @@ executables = [Executable(script='main.py',
                           )
                ]
 
-# not include python modules
+# not include python gar_modul
 excludes = ['logging',
             'unittest',
             'email',
@@ -18,7 +18,7 @@ excludes = ['logging',
 
 includes = ['requests']
 
-# include python modules to zip
+# include python gar_modul to zip
 zip_include_packages = ['collections',
                         'encodings',
                         'importlib'

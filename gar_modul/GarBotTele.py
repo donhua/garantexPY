@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 import requests
 
 
@@ -11,11 +11,11 @@ class GarBotTele:
         self.url = 'https://api.telegram.org/bot'+self.token+'/'
         self.data = {'offset': self.offset, 'limit': 0, 'timeout': 0}
 
-    def verefic(self):
+    def verefi(self):
         """проверка доступности телеги"""
         pass
 
-    def getMe(self):
+    def get_me(self):
         return requests.get(self.url+'getMe').json()['ok']
 
     def get_updates(self):
