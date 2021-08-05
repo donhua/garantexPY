@@ -27,7 +27,7 @@ class GarBotTele:
 
 
 def mee():
-    me = GarBotTele('1945392418:AAGWcxG4QHLx0c0uFVVRc0oDdL1VU6WCr64')
+    me = GarBotTele('_')
     me.send_message("Xnj 'nj nfrjt!!!!!")
 
 
