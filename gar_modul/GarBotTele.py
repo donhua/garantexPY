@@ -28,7 +28,7 @@ class GarBotTele:
 
 def mee():
     me = GarBotTele('1945392418:AAGWcxG4QHLx0c0uFVVRc0oDdL1VU6WCr64')
-    me.send_message("Это сообщение говорит о том, что меня активировали со стороны скрипта и я готов работать!")
+    me.send_message("Xnj 'nj nfrjt!!!!!")
 
 
 if __name__ == '__main__':
