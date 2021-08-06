@@ -9,7 +9,9 @@ class Gardb:
 
     def __init__(self, db_path: str = 'db/', log_path: str = 'inf_log/', name_db1: str = 'gdb.db'):
         self.lg = logging
-        self.lg.basicConfig(filename=log_path+'app.log', level=logging.INFO, format='%(asctime)s-%(levelname)s-%(message)s')
+        self.lg.basicConfig(filename=log_path+'app.log',
+                            level=logging.INFO,
+                            format='%(asctime)s-%(levelname)s-%(message)s')
         self.name_db = name_db1
         self.db = None
         self.db_path = db_path

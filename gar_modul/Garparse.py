@@ -2,5 +2,5 @@
 import requests
 
 
-class GarMethods:
+class Garparse:
     pass
