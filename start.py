@@ -11,6 +11,8 @@ g = GarantexIo()
 s = g.get_markets()
 print(s)
 print(os.uname())
+for i in g.get_history_market('btcrub'):
+    print(i)
 
 '''dervish: str = '_'
 b = Gardb()

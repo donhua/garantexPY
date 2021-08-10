@@ -10,24 +10,26 @@ class GarantexIo:
         self.url_node = ['markets',
                          'currencies',
                          'timestamps',
-                         'fees/withdraw/coin']
-        self.markets = []
-        self.currencies = []
-        self.timestamps = ''
-        self.fee_coin = []
+                         'fees/withdraw/coin',
+                         'trades']
 
     def get_markets(self):
         """Запрос возвращает список всех активных рынков"""
-        return requests.get(self.url+self.url_node[0]).json()
+        try:
+            return requests.get(self.url+self.url_node[0]).json()
+        except:
+            return "!Ошибка запроса списка активных рынков!"
 
     def get_currencies_type(self, type_curr: str = ''):
         """Запрос для получения списка криптовалют/фиат доступных для работы."""
         type_currencies = ['coin', 'fiat']
         if type_curr in type_currencies:
-            return requests.get(self.url + self.url_node[1], params=type_curr).json()
+            par = dict(type=i)
+            return requests.get(self.url + self.url_node[1], params=i).json()    '''!!!!!!!!!ошибки!!!!!!!!!!!!'''
         else:
             for i in type_currencies:
-                return requests.get(self.url + self.url_node[1], params=i).json()
+                par = dict(type=i)
+                return requests.get(self.url + self.url_node[1], params=par).json()
 
     def time_stamp(self):
         """Запрос возвращает текущее время сервера"""
@@ -40,6 +42,11 @@ class GarantexIo:
     def get_gateway_types(self):
         """Запрос возвращает список всех активных направлений ввода / вывода для фиата"""
         pass
+
+    def get_history_market(self, i):
+        """Запрос возвращает историю сделок по выбранному рынку"""
+        mr = dict(market=i)
+        return requests.get(self.url + self.url_node[4], params = mr).json()
 
     def get_trades(self, market_, ):
         pass
