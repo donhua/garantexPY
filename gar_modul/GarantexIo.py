@@ -24,8 +24,8 @@ class GarantexIo:
         """Запрос для получения списка криптовалют/фиат доступных для работы."""
         type_currencies = ['coin', 'fiat']
         if type_curr in type_currencies:
-            par = dict(type=i)
-            return requests.get(self.url + self.url_node[1], params=i).json()    '''!!!!!!!!!ошибки!!!!!!!!!!!!'''
+            par = dict(type=type_curr)
+            return requests.get(self.url + self.url_node[1], params=par).json()  '''!!!!!!!!!ошибки!!!!!!!!!!!!'''
         else:
             for i in type_currencies:
                 par = dict(type=i)
