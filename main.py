@@ -139,7 +139,7 @@ MARKETS = ['btcrub', 'ethrub', 'dairub']
 
 def profitflag(a):
     if a > 0:
-        return '***Profit***'
+        return 'PROFIT!!!'
     return 'No profit'
 
 

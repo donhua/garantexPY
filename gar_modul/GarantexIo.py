@@ -9,7 +9,7 @@ class GarantexIo:
         self.url = url
         self.url_node = ['markets',
                          'currencies',
-                         'timestamps',
+                         'timestamp',
                          'fees/withdraw/coin',
                          'trades']
 
@@ -25,7 +25,8 @@ class GarantexIo:
         type_currencies = ['coin', 'fiat']
         if type_curr in type_currencies:
             par = dict(type=type_curr)
-            return requests.get(self.url + self.url_node[1], params=par).json()  '''!!!!!!!!!ошибки!!!!!!!!!!!!'''
+            return requests.get(self.url + self.url_node[1], params=par).json()  
+            '''!!!!!!!!!ошибки!!!!!!!!!!!!'''
         else:
             for i in type_currencies:
                 par = dict(type=i)
@@ -33,19 +34,21 @@ class GarantexIo:
 
     def time_stamp(self):
         """Запрос возвращает текущее время сервера"""
-        return requests.get(self.url + self.url_node[2]).json()
+        url = f"{self.url}{self.url_node[2]}"
+        return requests.get(url).json()
 
     def get_fee_coin(self):
         """Запрос возвращает акутальные комиссии на вывод крипты"""
-        return requests.get(self.url + self.url_node[3]).json()
+        url = f"{self.url}{self.url_node[3]}"
+        return requests.get(url).json()
 
     def get_gateway_types(self):
         """Запрос возвращает список всех активных направлений ввода / вывода для фиата"""
         pass
 
-    def get_history_market(self, i):
-        """Запрос возвращает историю сделок по выбранному рынку"""
-        mr = dict(market=i)
+    def get_history_market(self, i : str):
+        """Запрос возвращает историю сделок по выбранному рынку. i ринимае значения вида btcrub"""
+        mr = dict(market = i)
         return requests.get(self.url + self.url_node[4], params = mr).json()
 
     def get_trades(self, market_, ):
