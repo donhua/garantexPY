@@ -110,9 +110,9 @@ class Gardb:
             self.lg.info(f'Закрытие базы {self.name_db} - успешно!')
 
 def mee():
-    n = Gardb('../db/', '../inf_log/')
+    n = Gardb('./db/', './inf_log/')
     n.connect_db()
-    n.gar_backup('../backup/')
+    n.gar_backup('./backup/')
 
 
 if __name__ == '__main__':
