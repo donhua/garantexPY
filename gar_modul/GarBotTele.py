@@ -28,7 +28,7 @@ class GarBotTele:
 
 def mee():
     me = GarBotTele('_')
-    me.send_message("Xnj 'nj nfrjt!!!!!")
+    me.send_message("Проверка модуля!!!!!")
 
 
 if __name__ == '__main__':

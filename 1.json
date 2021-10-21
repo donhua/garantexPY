@@ -1,0 +1,690 @@
+{'timestamp': 1634803632, 'asks': [
+        {'price': '4650000.0', 'volume': '0.02660442', 'amount': '123710.55', 'factor': '0.004', 'type': 'limit'
+        },
+        {'price': '4652624.94', 'volume': '0.66529742', 'amount': '3095379.42', 'factor': '0.004', 'type': 'limit'
+        },
+        {'price': '4655892.23', 'volume': '7.40340445', 'amount': '34469453.25', 'factor': '0.005', 'type': 'limit'
+        },
+        {'price': '4656286.6', 'volume': '0.06663458', 'amount': '310269.7', 'factor': '0.005', 'type': 'factor'
+        },
+        {'price': '4656608.36', 'volume': '0.02454535', 'amount': '114298.07', 'factor': '0.005', 'type': 'limit'
+        },
+        {'price': '4659159.52', 'volume': '1.36604134', 'amount': '6364604.48', 'factor': '0.006', 'type': 'limit'
+        },
+        {'price': '4659744.12', 'volume': '0.01536123', 'amount': '71579.44', 'factor': '0.006', 'type': 'limit'
+        },
+        {'price': '4660000.0', 'volume': '0.07092417', 'amount': '330506.63', 'factor': '0.006', 'type': 'limit'
+        },
+        {'price': '4662426.82', 'volume': '1.82618438', 'amount': '8514450.93', 'factor': '0.006', 'type': 'limit'
+        },
+        {'price': '4664447.77', 'volume': '0.01083226', 'amount': '50526.51', 'factor': '0.007', 'type': 'limit'
+        },
+        {'price': '4665552.84', 'volume': '0.11', 'amount': '513210.81', 'factor': '0.007', 'type': 'factor'
+        },
+        {'price': '4665694.11', 'volume': '1.07275357', 'amount': '5005140.0', 'factor': '0.007', 'type': 'limit'
+        },
+        {'price': '4666627.25', 'volume': '0.61200517', 'amount': '2856000.0', 'factor': '0.007', 'type': 'limit'
+        },
+        {'price': '4668961.4', 'volume': '1.33347998', 'amount': '6225966.52', 'factor': '0.008', 'type': 'limit'
+        },
+        {'price': '4669895.19', 'volume': '0.2263726', 'amount': '1057136.33', 'factor': '0.008', 'type': 'limit'
+        },
+        {'price': '4670185.96', 'volume': '0.09612514', 'amount': '448922.28', 'factor': '0.008', 'type': 'factor'
+        },
+        {'price': '4670223.07', 'volume': '0.38257973', 'amount': '1786732.69', 'factor': '0.008', 'type': 'factor'
+        },
+        {'price': '4672287.18', 'volume': '0.02533393', 'amount': '118367.39', 'factor': '0.008', 'type': 'limit'
+        },
+        {'price': '4674860.82', 'volume': '0.38257973', 'amount': '1788507.0', 'factor': '0.009', 'type': 'factor'
+        },
+        {'price': '4678763.28', 'volume': '0.60702717', 'amount': '2840136.44', 'factor': '0.01', 'type': 'limit'
+        },
+        {'price': '4679498.58', 'volume': '0.38257973', 'amount': '1790281.31', 'factor': '0.01', 'type': 'factor'
+        },
+        {'price': '4679699.03', 'volume': '0.00153001', 'amount': '7160.0', 'factor': '0.01', 'type': 'limit'
+        },
+        {'price': '4682030.57', 'volume': '0.06115001', 'amount': '286306.24', 'factor': '0.011', 'type': 'limit'
+        },
+        {'price': '4687965.99', 'volume': '0.03727654', 'amount': '174751.15', 'factor': '0.012', 'type': 'limit'
+        },
+        {'price': '4688565.16', 'volume': '0.13935084', 'amount': '653355.5', 'factor': '0.012', 'type': 'limit'
+        },
+        {'price': '4691832.45', 'volume': '0.37099155', 'amount': '1740630.17', 'factor': '0.013', 'type': 'limit'
+        },
+        {'price': '4693411.86', 'volume': '0.00324167', 'amount': '15214.51', 'factor': '0.013', 'type': 'factor'
+        },
+        {'price': '4695099.74', 'volume': '0.40746271', 'amount': '1913078.1', 'factor': '0.013', 'type': 'limit'
+        },
+        {'price': '4698367.04', 'volume': '0.15303189', 'amount': '719000.0', 'factor': '0.014', 'type': 'limit'
+        },
+        {'price': '4700000.0', 'volume': '0.11112551', 'amount': '522289.9', 'factor': '0.014', 'type': 'limit'
+        },
+        {'price': '4704901.62', 'volume': '0.13007711', 'amount': '612000.0', 'factor': '0.015', 'type': 'limit'
+        },
+        {'price': '4708364.13', 'volume': '0.00318902', 'amount': '15015.05', 'factor': '0.016', 'type': 'limit'
+        },
+        {'price': '4710715.95', 'volume': '0.06378033', 'amount': '300451.0', 'factor': '0.017', 'type': 'limit'
+        },
+        {'price': '4717000.0', 'volume': '0.04246353', 'amount': '200300.47', 'factor': '0.018', 'type': 'limit'
+        },
+        {'price': '4725783.42', 'volume': '0.00999837', 'amount': '47250.13', 'factor': '0.02', 'type': 'factor'
+        },
+        {'price': '4729000.0', 'volume': '0.04336426', 'amount': '205069.59', 'factor': '0.021', 'type': 'limit'
+        },
+        {'price': '4736000.0', 'volume': '0.00529807', 'amount': '25091.66', 'factor': '0.022', 'type': 'limit'
+        },
+        {'price': '4737574.55', 'volume': '0.01224255', 'amount': '58000.0', 'factor': '0.023', 'type': 'limit'
+        },
+        {'price': '4741500.0', 'volume': '0.033776', 'amount': '160148.9', 'factor': '0.023', 'type': 'limit'
+        },
+        {'price': '4742522.0', 'volume': '0.01213285', 'amount': '57540.31', 'factor': '0.024', 'type': 'limit'
+        },
+        {'price': '4743000.0', 'volume': '0.032', 'amount': '151776.0', 'factor': '0.024', 'type': 'limit'
+        },
+        {'price': '4743782.58', 'volume': '0.06378033', 'amount': '302560.0', 'factor': '0.024', 'type': 'limit'
+        },
+        {'price': '4743886.0', 'volume': '0.01245701', 'amount': '59094.64', 'factor': '0.024', 'type': 'limit'
+        },
+        {'price': '4744109.14', 'volume': '0.00890094', 'amount': '42227.07', 'factor': '0.024', 'type': 'limit'
+        },
+        {'price': '4745000.0', 'volume': '0.00529023', 'amount': '25102.14', 'factor': '0.024', 'type': 'limit'
+        },
+        {'price': '4750000.0', 'volume': '0.34318109', 'amount': '1630110.18', 'factor': '0.025', 'type': 'limit'
+        },
+        {'price': '4750353.0', 'volume': '0.02108269', 'amount': '100150.22', 'factor': '0.025', 'type': 'limit'
+        },
+        {'price': '4750681.26', 'volume': '0.37630392', 'amount': '1787700.0', 'factor': '0.025', 'type': 'limit'
+        },
+        {'price': '4752000.0', 'volume': '0.00299975', 'amount': '14254.81', 'factor': '0.026', 'type': 'limit'
+        },
+        {'price': '4753600.0', 'volume': '0.02', 'amount': '95072.0', 'factor': '0.026', 'type': 'limit'
+        },
+        {'price': '4754600.0', 'volume': '0.02', 'amount': '95092.0', 'factor': '0.026', 'type': 'limit'
+        },
+        {'price': '4755000.0', 'volume': '0.01086977', 'amount': '51685.76', 'factor': '0.026', 'type': 'limit'
+        },
+        {'price': '4757178.31', 'volume': '0.00765159', 'amount': '36400.0', 'factor': '0.027', 'type': 'limit'
+        },
+        {'price': '4759900.0', 'volume': '0.00109437', 'amount': '5209.09', 'factor': '0.027', 'type': 'limit'
+        },
+        {'price': '4760445.6', 'volume': '0.00006228', 'amount': '296.5', 'factor': '0.027', 'type': 'limit'
+        },
+        {'price': '4760500.0', 'volume': '0.05', 'amount': '238025.0', 'factor': '0.027', 'type': 'limit'
+        },
+        {'price': '4763979.0', 'volume': '0.01979416', 'amount': '94298.96', 'factor': '0.028', 'type': 'limit'
+        },
+        {'price': '4765000.0', 'volume': '0.02', 'amount': '95300.0', 'factor': '0.028', 'type': 'limit'
+        },
+        {'price': '4766980.18', 'volume': '0.00306064', 'amount': '14590.0', 'factor': '0.029', 'type': 'limit'
+        },
+        {'price': '4768000.0', 'volume': '0.00484027', 'amount': '23078.41', 'factor': '0.029', 'type': 'limit'
+        },
+        {'price': '4770000.0', 'volume': '0.00421931', 'amount': '20126.11', 'factor': '0.03', 'type': 'limit'
+        },
+        {'price': '4770247.48', 'volume': '0.0001642', 'amount': '783.29', 'factor': '0.03', 'type': 'limit'
+        },
+        {'price': '4775000.0', 'volume': '0.03409518', 'amount': '162804.49', 'factor': '0.031', 'type': 'limit'
+        },
+        {'price': '4776782.06', 'volume': '0.03801603', 'amount': '181594.29', 'factor': '0.031', 'type': 'limit'
+        },
+        {'price': '4780000.0', 'volume': '0.1', 'amount': '478000.0', 'factor': '0.032', 'type': 'limit'
+        },
+        {'price': '4780111.0', 'volume': '0.00637478', 'amount': '30472.16', 'factor': '0.032', 'type': 'limit'
+        },
+        {'price': '4780122.0', 'volume': '0.0096669', 'amount': '46208.96', 'factor': '0.032', 'type': 'limit'
+        },
+        {'price': '4782038.89', 'volume': '0.15168945', 'amount': '725384.86', 'factor': '0.032', 'type': 'limit'
+        },
+        {'price': '4789000.0', 'volume': '0.00094745', 'amount': '4537.34', 'factor': '0.034', 'type': 'limit'
+        },
+        {'price': '4794111.58', 'volume': '0.00135386', 'amount': '6490.58', 'factor': '0.035', 'type': 'limit'
+        },
+        {'price': '4798000.0', 'volume': '0.0012524', 'amount': '6009.02', 'factor': '0.036', 'type': 'limit'
+        },
+        {'price': '4800000.0', 'volume': '0.06455038', 'amount': '309841.81', 'factor': '0.036', 'type': 'limit'
+        },
+        {'price': '4800080.31', 'volume': '0.01251801', 'amount': '60087.45', 'factor': '0.036', 'type': 'factor'
+        },
+        {'price': '4807212.0', 'volume': '0.5', 'amount': '2403606.0', 'factor': '0.038', 'type': 'limit'
+        },
+        {'price': '4810000.0', 'volume': '0.02124621', 'amount': '102194.27', 'factor': '0.038', 'type': 'limit'
+        },
+        {'price': '4821100.0', 'volume': '0.05135', 'amount': '247563.49', 'factor': '0.041', 'type': 'limit'
+        },
+        {'price': '4832326.04', 'volume': '0.00153032', 'amount': '7395.0', 'factor': '0.043', 'type': 'limit'
+        },
+        {'price': '4835593.33', 'volume': '0.00783753', 'amount': '37899.1', 'factor': '0.044', 'type': 'limit'
+        },
+        {'price': '4837182.38', 'volume': '0.00373398', 'amount': '18061.93', 'factor': '0.044', 'type': 'factor'
+        },
+        {'price': '4850000.0', 'volume': '0.30103425', 'amount': '1460016.11', 'factor': '0.047', 'type': 'limit'
+        },
+        {'price': '4855000.0', 'volume': '0.02185987', 'amount': '106129.67', 'factor': '0.048', 'type': 'limit'
+        },
+        {'price': '4860432.97', 'volume': '0.10773083', 'amount': '523618.52', 'factor': '0.049', 'type': 'limit'
+        },
+        {'price': '4869000.0', 'volume': '0.0105095', 'amount': '51170.76', 'factor': '0.051', 'type': 'limit'
+        },
+        {'price': '4891137.31', 'volume': '0.08604723', 'amount': '420868.83', 'factor': '0.056', 'type': 'limit'
+        },
+        {'price': '4894404.6', 'volume': '0.04033921', 'amount': '197436.4', 'factor': '0.056', 'type': 'limit'
+        },
+        {'price': '4897671.9', 'volume': '0.00153032', 'amount': '7495.0', 'factor': '0.057', 'type': 'limit'
+        },
+        {'price': '4900000.0', 'volume': '0.00904653', 'amount': '44328.0', 'factor': '0.058', 'type': 'limit'
+        },
+        {'price': '4900863.0', 'volume': '0.01063364', 'amount': '52114.01', 'factor': '0.058', 'type': 'limit'
+        },
+        {'price': '4900939.19', 'volume': '0.82642899', 'amount': '4050278.25', 'factor': '0.058', 'type': 'limit'
+        },
+        {'price': '4920000.0', 'volume': '0.0041741', 'amount': '20536.57', 'factor': '0.062', 'type': 'limit'
+        },
+        {'price': '4920542.95', 'volume': '0.0038258', 'amount': '18825.0', 'factor': '0.062', 'type': 'limit'
+        },
+        {'price': '4927077.53', 'volume': '0.0038258', 'amount': '18850.0', 'factor': '0.063', 'type': 'limit'
+        },
+        {'price': '4930109.63', 'volume': '0.03189016', 'amount': '157222.0', 'factor': '0.064', 'type': 'limit'
+        },
+        {'price': '4938827.05', 'volume': '0.00637803', 'amount': '31500.0', 'factor': '0.066', 'type': 'limit'
+        },
+        {'price': '4943414.0', 'volume': '0.00459096', 'amount': '22695.0', 'factor': '0.067', 'type': 'limit'
+        },
+        {'price': '4946681.29', 'volume': '0.00459096', 'amount': '22710.0', 'factor': '0.068', 'type': 'limit'
+        },
+        {'price': '4961000.0', 'volume': '0.003', 'amount': '14883.0', 'factor': '0.071', 'type': 'limit'
+        },
+        {'price': '4963017.75', 'volume': '0.02295478', 'amount': '113925.0', 'factor': '0.071', 'type': 'limit'
+        },
+        {'price': '4966100.0', 'volume': '0.00516', 'amount': '25625.08', 'factor': '0.072', 'type': 'limit'
+        },
+        {'price': '4966285.05', 'volume': '0.00139274', 'amount': '6916.76', 'factor': '0.072', 'type': 'limit'
+        },
+        {'price': '4982621.51', 'volume': '0.00263215', 'amount': '13115.0', 'factor': '0.075', 'type': 'limit'
+        },
+        {'price': '4995690.68', 'volume': '0.02295478', 'amount': '114675.0', 'factor': '0.078', 'type': 'limit'
+        },
+        {'price': '4998957.97', 'volume': '0.0000153', 'amount': '76.5', 'factor': '0.079', 'type': 'limit'
+        },
+        {'price': '5000000.0', 'volume': '0.1335413', 'amount': '667706.5', 'factor': '0.079', 'type': 'limit'
+        },
+        {'price': '5017221.13', 'volume': '0.00637803', 'amount': '32000.0', 'factor': '0.083', 'type': 'limit'
+        },
+        {'price': '5028073.0', 'volume': '0.00778184', 'amount': '39127.66', 'factor': '0.085', 'type': 'limit'
+        },
+        {'price': '5028363.61', 'volume': '0.03825797', 'amount': '192375.0', 'factor': '0.085', 'type': 'limit'
+        },
+        {'price': '5031630.9', 'volume': '0.00003565', 'amount': '179.41', 'factor': '0.086', 'type': 'limit'
+        },
+        {'price': '5050000.0', 'volume': '0.01', 'amount': '50500.0', 'factor': '0.09', 'type': 'limit'
+        },
+        {'price': '5057769.24', 'volume': '0.02295478', 'amount': '116100.0', 'factor': '0.092', 'type': 'limit'
+        },
+        {'price': '5064303.83', 'volume': '0.0000306', 'amount': '155.0', 'factor': '0.093', 'type': 'limit'
+        },
+        {'price': '5079936.39', 'volume': '0.03744945', 'amount': '190240.81', 'factor': '0.096', 'type': 'limit'
+        },
+        {'price': '5087174.88', 'volume': '0.03825797', 'amount': '194625.0', 'factor': '0.098', 'type': 'limit'
+        },
+        {'price': '5096000.0', 'volume': '0.02830133', 'amount': '144223.58', 'factor': '0.1', 'type': 'limit'
+        },
+        {'price': '5096433.1', 'volume': '0.0000123', 'amount': '62.69', 'factor': '0.1', 'type': 'factor'
+        },
+        {'price': '5096976.76', 'volume': '0.0000306', 'amount': '156.0', 'factor': '0.1', 'type': 'limit'
+        },
+        {'price': '5097996.15', 'volume': '0.00002173', 'amount': '110.76', 'factor': '0.1', 'type': 'limit'
+        },
+        {'price': '5110045.93', 'volume': '0.00297249', 'amount': '15189.57', 'factor': '0.103', 'type': 'limit'
+        },
+        {'price': '5129649.68', 'volume': '0.11178184', 'amount': '573401.68', 'factor': '0.107', 'type': 'limit'
+        },
+        {'price': '5145986.15', 'volume': '0.03825797', 'amount': '196875.0', 'factor': '0.111', 'type': 'limit'
+        },
+        {'price': '5159055.32', 'volume': '0.04492526', 'amount': '231771.94', 'factor': '0.113', 'type': 'limit'
+        },
+        {'price': '5162322.61', 'volume': '0.0000153', 'amount': '79.0', 'factor': '0.114', 'type': 'limit'
+        },
+        {'price': '5181926.37', 'volume': '0.00988663', 'amount': '51231.77', 'factor': '0.118', 'type': 'limit'
+        },
+        {'price': '5191728.25', 'volume': '0.03825797', 'amount': '198625.0', 'factor': '0.12', 'type': 'limit'
+        },
+        {'price': '5194995.54', 'volume': '0.0000153', 'amount': '79.5', 'factor': '0.121', 'type': 'limit'
+        },
+        {'price': '5200000.0', 'volume': '0.01704391', 'amount': '88628.33', 'factor': '0.122', 'type': 'limit'
+        },
+        {'price': '5208064.71', 'volume': '0.13466807', 'amount': '701360.0', 'factor': '0.124', 'type': 'limit'
+        },
+        {'price': '5224401.18', 'volume': '0.03825797', 'amount': '199875.0', 'factor': '0.127', 'type': 'limit'
+        },
+        {'price': '5226266.78', 'volume': '0.02540262', 'amount': '132760.87', 'factor': '0.128', 'type': 'limit'
+        },
+        {'price': '5227668.47', 'volume': '0.0000153', 'amount': '80.0', 'factor': '0.128', 'type': 'limit'
+        },
+        {'price': '5236708.87', 'volume': '0.0424777', 'amount': '222443.33', 'factor': '0.13', 'type': 'limit'
+        },
+        {'price': '5257074.1', 'volume': '0.02295478', 'amount': '120675.0', 'factor': '0.135', 'type': 'limit'
+        },
+        {'price': '5260341.4', 'volume': '0.09181914', 'amount': '483000.0', 'factor': '0.135', 'type': 'limit'
+        },
+        {'price': '5289747.03', 'volume': '0.02295478', 'amount': '121425.0', 'factor': '0.142', 'type': 'limit'
+        },
+        {'price': '5291600.41', 'volume': '0.06378033', 'amount': '337500.0', 'factor': '0.142', 'type': 'limit'
+        },
+        {'price': '5322419.96', 'volume': '0.02295478', 'amount': '122175.0', 'factor': '0.149', 'type': 'limit'
+        },
+        {'price': '5355092.89', 'volume': '0.02295478', 'amount': '122925.0', 'factor': '0.156', 'type': 'limit'
+        },
+        {'price': '5387765.82', 'volume': '0.02295478', 'amount': '123675.0', 'factor': '0.163', 'type': 'limit'
+        },
+        {'price': '5420438.74', 'volume': '0.02295478', 'amount': '124425.0', 'factor': '0.17', 'type': 'limit'
+        },
+        {'price': '5453111.67', 'volume': '0.02295478', 'amount': '125175.0', 'factor': '0.177', 'type': 'limit'
+        },
+        {'price': '5485784.6', 'volume': '0.02295478', 'amount': '125925.0', 'factor': '0.184', 'type': 'limit'
+        },
+        {'price': '5487585.61', 'volume': '0.06378033', 'amount': '350000.0', 'factor': '0.184', 'type': 'limit'
+        },
+        {'price': '5496992.9', 'volume': '0.06378033', 'amount': '350600.0', 'factor': '0.186', 'type': 'limit'
+        },
+        {'price': '5499999.0', 'volume': '0.025', 'amount': '137499.98', 'factor': '0.187', 'type': 'limit'
+        },
+        {'price': '5500000.0', 'volume': '0.1883559', 'amount': '1035957.45', 'factor': '0.187', 'type': 'limit'
+        },
+        {'price': '5513413.99', 'volume': '0.00002402', 'amount': '132.43', 'factor': '0.19', 'type': 'factor'
+        },
+        {'price': '5518457.53', 'volume': '0.02295478', 'amount': '126675.0', 'factor': '0.191', 'type': 'limit'
+        },
+        {'price': '5551130.45', 'volume': '0.02295478', 'amount': '127425.0', 'factor': '0.198', 'type': 'limit'
+        },
+        {'price': '5565979.69', 'volume': '0.09342587', 'amount': '520006.49', 'factor': '0.201', 'type': 'limit'
+        },
+        {'price': '5583803.38', 'volume': '0.02295478', 'amount': '128175.0', 'factor': '0.205', 'type': 'limit'
+        },
+        {'price': '5600000.0', 'volume': '0.01', 'amount': '56000.0', 'factor': '0.209', 'type': 'limit'
+        },
+        {'price': '5616476.31', 'volume': '0.02295478', 'amount': '128925.0', 'factor': '0.212', 'type': 'limit'
+        },
+        {'price': '5644373.77', 'volume': '0.01067377', 'amount': '60246.72', 'factor': '0.218', 'type': 'limit'
+        },
+        {'price': '5681822.17', 'volume': '0.01530319', 'amount': '86950.0', 'factor': '0.226', 'type': 'limit'
+        },
+        {'price': '5747168.02', 'volume': '0.01530319', 'amount': '87950.0', 'factor': '0.24', 'type': 'limit'
+        },
+        {'price': '5798658.0', 'volume': '0.00006156', 'amount': '356.97', 'factor': '0.252', 'type': 'limit'
+        },
+        {'price': '5812513.88', 'volume': '0.01530319', 'amount': '88950.0', 'factor': '0.254', 'type': 'limit'
+        },
+        {'price': '5877859.73', 'volume': '0.01530319', 'amount': '89950.0', 'factor': '0.268', 'type': 'limit'
+        },
+        {'price': '5920000.0', 'volume': '0.33250728', 'amount': '1968443.1', 'factor': '0.278', 'type': 'limit'
+        },
+        {'price': '5943205.59', 'volume': '0.01530319', 'amount': '90950.0', 'factor': '0.282', 'type': 'limit'
+        },
+        {'price': '5999999.0', 'volume': '0.075', 'amount': '449999.93', 'factor': '0.295', 'type': 'limit'
+        },
+        {'price': '6000000.0', 'volume': '0.01457537', 'amount': '87452.22', 'factor': '0.295', 'type': 'limit'
+        },
+        {'price': '6000111.0', 'volume': '0.06452094', 'amount': '387132.8', 'factor': '0.295', 'type': 'limit'
+        },
+        {'price': '6008551.45', 'volume': '0.01530319', 'amount': '91950.0', 'factor': '0.297', 'type': 'limit'
+        },
+        {'price': '6073897.3', 'volume': '0.01530319', 'amount': '92950.0', 'factor': '0.311', 'type': 'limit'
+        },
+        {'price': '6207856.31', 'volume': '0.00055061', 'amount': '3418.1', 'factor': '0.34', 'type': 'limit'
+        },
+        {'price': '6260000.0', 'volume': '0.17472315', 'amount': '1093766.92', 'factor': '0.351', 'type': 'limit'
+        },
+        {'price': '6271526.41', 'volume': '0.13150955', 'amount': '824765.6', 'factor': '0.353', 'type': 'limit'
+        },
+        {'price': '6499999.0', 'volume': '0.025', 'amount': '162499.98', 'factor': '0.403', 'type': 'limit'
+        },
+        {'price': '6859000.0', 'volume': '0.50951448', 'amount': '3494759.82', 'factor': '0.48', 'type': 'limit'
+        },
+        {'price': '6999999.0', 'volume': '0.025', 'amount': '174999.98', 'factor': '0.511', 'type': 'limit'
+        },
+        {'price': '7499999.0', 'volume': '0.025', 'amount': '187499.98', 'factor': '0.619', 'type': 'limit'
+        },
+        {'price': '7999999.0', 'volume': '0.025', 'amount': '199999.98', 'factor': '0.727', 'type': 'limit'
+        },
+        {'price': '8000000.0', 'volume': '0.00286748', 'amount': '22939.84', 'factor': '0.727', 'type': 'limit'
+        },
+        {'price': '8499999.0', 'volume': '0.025', 'amount': '212499.98', 'factor': '0.835', 'type': 'limit'
+        },
+        {'price': '8625857.42', 'volume': '0.03209298', 'amount': '276829.51', 'factor': '0.861', 'type': 'limit'
+        },
+        {'price': '8999999.0', 'volume': '0.025', 'amount': '224999.98', 'factor': '0.943', 'type': 'limit'
+        },
+        {'price': '9499999.0', 'volume': '0.025', 'amount': '237499.98', 'factor': '1.05', 'type': 'limit'
+        },
+        {'price': '9888500.0', 'volume': '0.00108326', 'amount': '10711.82', 'factor': '1.134', 'type': 'limit'
+        },
+        {'price': '9999999.0', 'volume': '0.025', 'amount': '249999.98', 'factor': '1.158', 'type': 'limit'
+        },
+        {'price': '10000000.0', 'volume': '0.0179779', 'amount': '179779.0', 'factor': '1.158', 'type': 'limit'
+        },
+        {'price': '11288747.54', 'volume': '0.00691309', 'amount': '78040.08', 'factor': '1.435', 'type': 'limit'
+        },
+        {'price': '12000000.0', 'volume': '0.03079465', 'amount': '369535.8', 'factor': '1.59', 'type': 'limit'
+        },
+        {'price': '16336463.96', 'volume': '0.00115539', 'amount': '18875.0', 'factor': '2.523', 'type': 'limit'
+        },
+        {'price': '78394080.13', 'volume': '0.09361421', 'amount': '7338800.0', 'factor': '15.904', 'type': 'limit'
+        },
+        {'price': '100000000.0', 'volume': '0.00596826', 'amount': '596826.0', 'factor': '20.584', 'type': 'limit'
+        },
+        {'price': '7776666553.0', 'volume': '0.11195981', 'amount': '870674109.71', 'factor': '1677.494', 'type': 'limit'
+        },
+        {'price': '400000000000.0', 'volume': '0.00003262', 'amount': '13048000.0', 'factor': '86333.892', 'type': 'limit'
+        }
+    ], 'bids': [
+        {'price': '4647000.0', 'volume': '0.04875204', 'amount': '226550.75', 'factor': '0.003', 'type': 'limit'
+        },
+        {'price': '4642387.24', 'volume': '0.24142445', 'amount': '1120785.79', 'factor': '0.002', 'type': 'factor'
+        },
+        {'price': '4640063.58', 'volume': '7.62902572', 'amount': '35399164.36', 'factor': '0.002', 'type': 'limit'
+        },
+        {'price': '4640000.0', 'volume': '0.00431035', 'amount': '20000.02', 'factor': '0.001', 'type': 'limit'
+        },
+        {'price': '4636802.82', 'volume': '35.84707977', 'amount': '166215840.45', 'factor': '0.001', 'type': 'limit'
+        },
+        {'price': '4633542.06', 'volume': '12.354657', 'amount': '57245822.76', 'factor': '0.0', 'type': 'limit'
+        },
+        {'price': '4633121.0', 'volume': '0.01441786', 'amount': '66799.72', 'factor': '0.0', 'type': 'factor'
+        },
+        {'price': '4630281.29', 'volume': '1.19755143', 'amount': '5545000.0', 'factor': '-0.001', 'type': 'limit'
+        },
+        {'price': '4600716.95', 'volume': '0.05075506', 'amount': '233509.68', 'factor': '-0.007', 'type': 'factor'
+        },
+        {'price': '4600357.38', 'volume': '0.02865655', 'amount': '131830.39', 'factor': '-0.007', 'type': 'limit'
+        },
+        {'price': '4597673.68', 'volume': '17.40204019', 'amount': '80008902.16', 'factor': '-0.008', 'type': 'limit'
+        },
+        {'price': '4590000.0', 'volume': '0.0830094', 'amount': '381013.13', 'factor': '-0.009', 'type': 'limit'
+        },
+        {'price': '4583900.0', 'volume': '0.22358712', 'amount': '1024901.0', 'factor': '-0.011', 'type': 'limit'
+        },
+        {'price': '4570000.0', 'volume': '0.003183', 'amount': '14546.33', 'factor': '-0.014', 'type': 'limit'
+        },
+        {'price': '4565066.06', 'volume': '19.72261766', 'amount': '90035052.58', 'factor': '-0.015', 'type': 'limit'
+        },
+        {'price': '4550015.0', 'volume': '0.01098897', 'amount': '50000.0', 'factor': '-0.018', 'type': 'limit'
+        },
+        {'price': '4550003.0', 'volume': '0.0131868', 'amount': '60000.0', 'factor': '-0.018', 'type': 'limit'
+        },
+        {'price': '4550000.0', 'volume': '0.03732068', 'amount': '169809.11', 'factor': '-0.018', 'type': 'limit'
+        },
+        {'price': '4542000.0', 'volume': '0.0660502', 'amount': '300000.0', 'factor': '-0.02', 'type': 'limit'
+        },
+        {'price': '4540000.0', 'volume': '0.02202643', 'amount': '100000.0', 'factor': '-0.02', 'type': 'limit'
+        },
+        {'price': '4537767.48', 'volume': '0.0121205', 'amount': '55000.0', 'factor': '-0.021', 'type': 'limit'
+        },
+        {'price': '4506472.53', 'volume': '0.0036525', 'amount': '16459.87', 'factor': '-0.027', 'type': 'limit'
+        },
+        {'price': '4500015.0', 'volume': '0.01111107', 'amount': '50000.0', 'factor': '-0.029', 'type': 'limit'
+        },
+        {'price': '4500000.0', 'volume': '0.16383796', 'amount': '737270.84', 'factor': '-0.029', 'type': 'limit'
+        },
+        {'price': '4490825.06', 'volume': '0.00022268', 'amount': '1000.0', 'factor': '-0.031', 'type': 'limit'
+        },
+        {'price': '4480000.0', 'volume': '0.00669643', 'amount': '30000.0', 'factor': '-0.033', 'type': 'limit'
+        },
+        {'price': '4475100.0', 'volume': '0.06703761', 'amount': '300000.0', 'factor': '-0.034', 'type': 'limit'
+        },
+        {'price': '4470100.0', 'volume': '0.00007294', 'amount': '326.06', 'factor': '-0.035', 'type': 'limit'
+        },
+        {'price': '4470000.0', 'volume': '0.02237136', 'amount': '100000.0', 'factor': '-0.035', 'type': 'limit'
+        },
+        {'price': '4460000.0', 'volume': '0.00672646', 'amount': '30000.0', 'factor': '-0.037', 'type': 'limit'
+        },
+        {'price': '4450000.0', 'volume': '0.00561798', 'amount': '25000.0', 'factor': '-0.04', 'type': 'limit'
+        },
+        {'price': '4443882.64', 'volume': '0.007876', 'amount': '35000.0', 'factor': '-0.041', 'type': 'limit'
+        },
+        {'price': '4440000.0', 'volume': '0.03378378', 'amount': '150000.0', 'factor': '-0.042', 'type': 'limit'
+        },
+        {'price': '4420000.0', 'volume': '0.00904977', 'amount': '40000.0', 'factor': '-0.046', 'type': 'limit'
+        },
+        {'price': '4414152.44', 'volume': '0.04530881', 'amount': '200000.0', 'factor': '-0.047', 'type': 'limit'
+        },
+        {'price': '4410000.0', 'volume': '0.00680272', 'amount': '30000.0', 'factor': '-0.048', 'type': 'limit'
+        },
+        {'price': '4401100.0', 'volume': '0.04544318', 'amount': '200000.0', 'factor': '-0.05', 'type': 'limit'
+        },
+        {'price': '4400008.0', 'volume': '0.00113636', 'amount': '5000.0', 'factor': '-0.05', 'type': 'limit'
+        },
+        {'price': '4400000.0', 'volume': '0.05121752', 'amount': '225357.11', 'factor': '-0.05', 'type': 'limit'
+        },
+        {'price': '4396502.09', 'volume': '0.00064004', 'amount': '2813.94', 'factor': '-0.051', 'type': 'limit'
+        },
+        {'price': '4390000.0', 'volume': '0.00683371', 'amount': '30000.0', 'factor': '-0.052', 'type': 'limit'
+        },
+        {'price': '4381292.74', 'volume': '0.01255337', 'amount': '55000.0', 'factor': '-0.054', 'type': 'limit'
+        },
+        {'price': '4380000.0', 'volume': '0.02968037', 'amount': '130000.0', 'factor': '-0.055', 'type': 'limit'
+        },
+        {'price': '4379000.0', 'volume': '0.0655298', 'amount': '286955.01', 'factor': '-0.055', 'type': 'limit'
+        },
+        {'price': '4355010.0', 'volume': '0.01418125', 'amount': '61759.48', 'factor': '-0.06', 'type': 'limit'
+        },
+        {'price': '4352000.0', 'volume': '0.0057873', 'amount': '25186.31', 'factor': '-0.061', 'type': 'limit'
+        },
+        {'price': '4350000.0', 'volume': '0.02178176', 'amount': '94750.65', 'factor': '-0.061', 'type': 'limit'
+        },
+        {'price': '4342000.0', 'volume': '0.00023065', 'amount': '1001.5', 'factor': '-0.063', 'type': 'limit'
+        },
+        {'price': '4340000.0', 'volume': '0.00526589', 'amount': '22853.96', 'factor': '-0.063', 'type': 'limit'
+        },
+        {'price': '4332785.57', 'volume': '0.01285664', 'amount': '55705.06', 'factor': '-0.065', 'type': 'limit'
+        },
+        {'price': '4330000.0', 'volume': '0.01154734', 'amount': '50000.0', 'factor': '-0.065', 'type': 'limit'
+        },
+        {'price': '4300000.0', 'volume': '0.08920122', 'amount': '383565.31', 'factor': '-0.072', 'type': 'limit'
+        },
+        {'price': '4299306.0', 'volume': '0.00027476', 'amount': '1181.29', 'factor': '-0.072', 'type': 'limit'
+        },
+        {'price': '4298008.0', 'volume': '0.00116333', 'amount': '5000.0', 'factor': '-0.072', 'type': 'limit'
+        },
+        {'price': '4275000.0', 'volume': '0.00233918', 'amount': '10000.0', 'factor': '-0.077', 'type': 'limit'
+        },
+        {'price': '4267003.59', 'volume': '0.07370177', 'amount': '314485.71', 'factor': '-0.079', 'type': 'limit'
+        },
+        {'price': '4263936.68', 'volume': '0.02345251', 'amount': '100000.0', 'factor': '-0.08', 'type': 'limit'
+        },
+        {'price': '4260807.19', 'volume': '0.02346973', 'amount': '100000.0', 'factor': '-0.08', 'type': 'limit'
+        },
+        {'price': '4255003.0', 'volume': '0.01175087', 'amount': '50000.0', 'factor': '-0.082', 'type': 'limit'
+        },
+        {'price': '4255000.0', 'volume': '0.00001893', 'amount': '80.56', 'factor': '-0.082', 'type': 'limit'
+        },
+        {'price': '4250000.0', 'volume': '0.29411765', 'amount': '1250000.0', 'factor': '-0.083', 'type': 'limit'
+        },
+        {'price': '4224818.0', 'volume': '0.01550558', 'amount': '65508.27', 'factor': '-0.088', 'type': 'limit'
+        },
+        {'price': '4202000.0', 'volume': '0.07139457', 'amount': '300000.0', 'factor': '-0.093', 'type': 'limit'
+        },
+        {'price': '4200000.0', 'volume': '0.04761904', 'amount': '200000.0', 'factor': '-0.093', 'type': 'limit'
+        },
+        {'price': '4160000.0', 'volume': '0.54908562', 'amount': '2284196.18', 'factor': '-0.102', 'type': 'limit'
+        },
+        {'price': '4146580.63', 'volume': '0.00032609', 'amount': '1352.17', 'factor': '-0.105', 'type': 'limit'
+        },
+        {'price': '4134266.07', 'volume': '0.00413447', 'amount': '17093.01', 'factor': '-0.108', 'type': 'limit'
+        },
+        {'price': '4130000.0', 'volume': '0.01937046', 'amount': '80000.0', 'factor': '-0.109', 'type': 'limit'
+        },
+        {'price': '4116850.43', 'volume': '0.02637066', 'amount': '108564.07', 'factor': '-0.112', 'type': 'limit'
+        },
+        {'price': '4108447.73', 'volume': '0.00192012', 'amount': '7888.72', 'factor': '-0.113', 'type': 'limit'
+        },
+        {'price': '4100003.0', 'volume': '0.01231407', 'amount': '50487.72', 'factor': '-0.115', 'type': 'limit'
+        },
+        {'price': '4100000.0', 'volume': '0.03658536', 'amount': '150000.0', 'factor': '-0.115', 'type': 'limit'
+        },
+        {'price': '4068343.26', 'volume': '0.00077723', 'amount': '3162.05', 'factor': '-0.122', 'type': 'limit'
+        },
+        {'price': '4051131.04', 'volume': '0.00123422', 'amount': '5000.0', 'factor': '-0.126', 'type': 'limit'
+        },
+        {'price': '4030000.0', 'volume': '0.00248139', 'amount': '10000.0', 'factor': '-0.13', 'type': 'limit'
+        },
+        {'price': '4021400.84', 'volume': '0.00198985', 'amount': '8002.0', 'factor': '-0.132', 'type': 'limit'
+        },
+        {'price': '4000006.0', 'volume': '0.00624999', 'amount': '24999.99', 'factor': '-0.137', 'type': 'limit'
+        },
+        {'price': '4000000.0', 'volume': '0.025', 'amount': '100000.0', 'factor': '-0.137', 'type': 'limit'
+        },
+        {'price': '3996000.0', 'volume': '0.02803372', 'amount': '112022.75', 'factor': '-0.138', 'type': 'limit'
+        },
+        {'price': '3994000.0', 'volume': '0.10015023', 'amount': '400000.0', 'factor': '-0.138', 'type': 'limit'
+        },
+        {'price': '3985000.0', 'volume': '0.00411891', 'amount': '16413.84', 'factor': '-0.14', 'type': 'limit'
+        },
+        {'price': '3968000.0', 'volume': '0.01772979', 'amount': '70351.81', 'factor': '-0.144', 'type': 'limit'
+        },
+        {'price': '3950000.0', 'volume': '0.00904859', 'amount': '35741.94', 'factor': '-0.147', 'type': 'limit'
+        },
+        {'price': '3940000.0', 'volume': '0.00253807', 'amount': '10000.0', 'factor': '-0.15', 'type': 'limit'
+        },
+        {'price': '3911868.52', 'volume': '0.0870902', 'amount': '340685.4', 'factor': '-0.156', 'type': 'limit'
+        },
+        {'price': '3910303.77', 'volume': '0.00127867', 'amount': '5000.0', 'factor': '-0.156', 'type': 'limit'
+        },
+        {'price': '3900000.0', 'volume': '0.31025641', 'amount': '1210000.0', 'factor': '-0.158', 'type': 'limit'
+        },
+        {'price': '3850000.0', 'volume': '0.1572043', 'amount': '605236.57', 'factor': '-0.169', 'type': 'limit'
+        },
+        {'price': '3833631.15', 'volume': '0.01304246', 'amount': '50000.0', 'factor': '-0.173', 'type': 'limit'
+        },
+        {'price': '3800000.0', 'volume': '0.00719562', 'amount': '27343.35', 'factor': '-0.18', 'type': 'limit'
+        },
+        {'price': '3755393.78', 'volume': '0.10651346', 'amount': '400000.0', 'factor': '-0.19', 'type': 'limit'
+        },
+        {'price': '3750000.0', 'volume': '0.06333333', 'amount': '237500.0', 'factor': '-0.191', 'type': 'limit'
+        },
+        {'price': '3700000.0', 'volume': '0.00009813', 'amount': '363.07', 'factor': '-0.201', 'type': 'limit'
+        },
+        {'price': '3652120.45', 'volume': '0.00256016', 'amount': '9350.03', 'factor': '-0.212', 'type': 'limit'
+        },
+        {'price': '3650400.0', 'volume': '0.00647272', 'amount': '23628.0', 'factor': '-0.212', 'type': 'limit'
+        },
+        {'price': '3630213.98', 'volume': '0.12800817', 'amount': '464697.05', 'factor': '-0.217', 'type': 'limit'
+        },
+        {'price': '3600000.0', 'volume': '0.00042031', 'amount': '1513.11', 'factor': '-0.223', 'type': 'limit'
+        },
+        {'price': '3550000.0', 'volume': '0.02912838', 'amount': '103405.75', 'factor': '-0.234', 'type': 'limit'
+        },
+        {'price': '3520000.0', 'volume': '0.01420455', 'amount': '50000.0', 'factor': '-0.24', 'type': 'limit'
+        },
+        {'price': '3502000.0', 'volume': '0.00166844', 'amount': '5842.89', 'factor': '-0.244', 'type': 'limit'
+        },
+        {'price': '3500000.0', 'volume': '1.4492665', 'amount': '5072432.79', 'factor': '-0.245', 'type': 'limit'
+        },
+        {'price': '3442444.3', 'volume': '0.00290491', 'amount': '10000.0', 'factor': '-0.257', 'type': 'limit'
+        },
+        {'price': '3408123.0', 'volume': '0.11736666', 'amount': '400000.0', 'factor': '-0.264', 'type': 'limit'
+        },
+        {'price': '3370000.0', 'volume': '0.00006053', 'amount': '204.0', 'factor': '-0.273', 'type': 'limit'
+        },
+        {'price': '3364206.93', 'volume': '0.00018343', 'amount': '617.09', 'factor': '-0.274', 'type': 'limit'
+        },
+        {'price': '3300123.0', 'volume': '0.00042566', 'amount': '1404.73', 'factor': '-0.288', 'type': 'limit'
+        },
+        {'price': '3300000.0', 'volume': '0.00016894', 'amount': '557.49', 'factor': '-0.288', 'type': 'limit'
+        },
+        {'price': '3290642.0', 'volume': '0.00303892', 'amount': '10000.0', 'factor': '-0.29', 'type': 'limit'
+        },
+        {'price': '3267239.53', 'volume': '0.01530344', 'amount': '50000.0', 'factor': '-0.295', 'type': 'limit'
+        },
+        {'price': '3250123.0', 'volume': '0.00039998', 'amount': '1300.0', 'factor': '-0.299', 'type': 'limit'
+        },
+        {'price': '3219890.27', 'volume': '0.00073245', 'amount': '2358.41', 'factor': '-0.305', 'type': 'limit'
+        },
+        {'price': '3219481.0', 'volume': '0.00310609', 'amount': '10000.0', 'factor': '-0.305', 'type': 'limit'
+        },
+        {'price': '3219000.0', 'volume': '0.00356104', 'amount': '11463.0', 'factor': '-0.305', 'type': 'limit'
+        },
+        {'price': '3218400.0', 'volume': '0.0110123', 'amount': '35442.0', 'factor': '-0.305', 'type': 'limit'
+        },
+        {'price': '3205000.0', 'volume': '0.002658', 'amount': '8518.88', 'factor': '-0.308', 'type': 'limit'
+        },
+        {'price': '3200123.0', 'volume': '0.00037499', 'amount': '1200.0', 'factor': '-0.309', 'type': 'limit'
+        },
+        {'price': '3200000.0', 'volume': '0.01851531', 'amount': '59249.02', 'factor': '-0.309', 'type': 'limit'
+        },
+        {'price': '3174331.0', 'volume': '0.50075173', 'amount': '1589551.74', 'factor': '-0.315', 'type': 'limit'
+        },
+        {'price': '3160789.76', 'volume': '0.04746283', 'amount': '150020.02', 'factor': '-0.318', 'type': 'limit'
+        },
+        {'price': '3158640.0', 'volume': '0.01513059', 'amount': '47792.08', 'factor': '-0.318', 'type': 'limit'
+        },
+        {'price': '3157223.0', 'volume': '0.00316734', 'amount': '10000.0', 'factor': '-0.319', 'type': 'limit'
+        },
+        {'price': '3150123.0', 'volume': '0.00038094', 'amount': '1200.0', 'factor': '-0.32', 'type': 'limit'
+        },
+        {'price': '3143100.0', 'volume': '0.00318157', 'amount': '10000.0', 'factor': '-0.322', 'type': 'limit'
+        },
+        {'price': '3129494.81', 'volume': '0.03451525', 'amount': '108015.31', 'factor': '-0.325', 'type': 'limit'
+        },
+        {'price': '3077322.0', 'volume': '0.00350641', 'amount': '10790.34', 'factor': '-0.336', 'type': 'limit'
+        },
+        {'price': '3051257.44', 'volume': '0.0000192', 'amount': '58.59', 'factor': '-0.342', 'type': 'limit'
+        },
+        {'price': '3027408.0', 'volume': '0.00330316', 'amount': '10000.0', 'factor': '-0.347', 'type': 'limit'
+        },
+        {'price': '3021580.0', 'volume': '0.00661905', 'amount': '20000.0', 'factor': '-0.348', 'type': 'limit'
+        },
+        {'price': '3011000.0', 'volume': '0.00664231', 'amount': '20000.0', 'factor': '-0.35', 'type': 'limit'
+        },
+        {'price': '3002859.81', 'volume': '0.03330159', 'amount': '100000.0', 'factor': '-0.352', 'type': 'limit'
+        },
+        {'price': '3000001.0', 'volume': '0.01713466', 'amount': '51404.0', 'factor': '-0.352', 'type': 'limit'
+        },
+        {'price': '3000000.0', 'volume': '0.18217742', 'amount': '546532.25', 'factor': '-0.352', 'type': 'limit'
+        },
+        {'price': '2995000.0', 'volume': '0.0066778', 'amount': '20000.0', 'factor': '-0.354', 'type': 'limit'
+        },
+        {'price': '2973020.07', 'volume': '0.0000192', 'amount': '57.09', 'factor': '-0.359', 'type': 'limit'
+        },
+        {'price': '2970000.0', 'volume': '0.01010101', 'amount': '30000.0', 'factor': '-0.359', 'type': 'limit'
+        },
+        {'price': '2962800.0', 'volume': '0.01993773', 'amount': '59071.52', 'factor': '-0.361', 'type': 'limit'
+        },
+        {'price': '2894782.7', 'volume': '0.0000192', 'amount': '55.58', 'factor': '-0.376', 'type': 'limit'
+        },
+        {'price': '2816545.33', 'volume': '0.02137886', 'amount': '60214.52', 'factor': '-0.392', 'type': 'limit'
+        },
+        {'price': '2803126.0', 'volume': '0.00003567', 'amount': '100.0', 'factor': '-0.395', 'type': 'limit'
+        },
+        {'price': '2700000.0', 'volume': '0.00122446', 'amount': '3306.03', 'factor': '-0.417', 'type': 'limit'
+        },
+        {'price': '2636599.38', 'volume': '0.03792764', 'amount': '100000.0', 'factor': '-0.431', 'type': 'limit'
+        },
+        {'price': '2500000.0', 'volume': '0.00042342', 'amount': '1058.56', 'factor': '-0.46', 'type': 'limit'
+        },
+        {'price': '2347121.11', 'volume': '0.04315599', 'amount': '101292.33', 'factor': '-0.494', 'type': 'limit'
+        },
+        {'price': '2299995.0', 'volume': '0.02195657', 'amount': '50500.0', 'factor': '-0.504', 'type': 'limit'
+        },
+        {'price': '2030030.0', 'volume': '0.01280939', 'amount': '26003.45', 'factor': '-0.562', 'type': 'limit'
+        },
+        {'price': '2002876.68', 'volume': '0.00639081', 'amount': '12800.0', 'factor': '-0.568', 'type': 'limit'
+        },
+        {'price': '1971581.73', 'volume': '0.04710097', 'amount': '92863.41', 'factor': '-0.575', 'type': 'limit'
+        },
+        {'price': '1650000.0', 'volume': '0.02545455', 'amount': '42000.0', 'factor': '-0.644', 'type': 'limit'
+        },
+        {'price': '1533000.0', 'volume': '0.08167542', 'amount': '125208.42', 'factor': '-0.669', 'type': 'limit'
+        },
+        {'price': '1000000.0', 'volume': '6.99323847', 'amount': '6993238.47', 'factor': '-0.784', 'type': 'limit'
+        },
+        {'price': '264989.97', 'volume': '0.00377373', 'amount': '1000.0', 'factor': '-0.944', 'type': 'limit'
+        },
+        {'price': '100000.0', 'volume': '3.71', 'amount': '371000.0', 'factor': '-0.978', 'type': 'limit'
+        },
+        {'price': '60090.0', 'volume': '0.00166417', 'amount': '100.0', 'factor': '-0.987', 'type': 'limit'
+        },
+        {'price': '360.0', 'volume': '0.02483333', 'amount': '8.94', 'factor': '-1.0', 'type': 'limit'
+        },
+        {'price': '50.0', 'volume': '1.0', 'amount': '50.0', 'factor': '-1.0', 'type': 'limit'
+        }
+    ]
+}

@@ -11,11 +11,8 @@ def zero(o : int, l : list, i: int, j : int):
     return l[i][j]+'0'*o1
 
 gi = GI()
-a = gi.get_history_market('btcrub')
-print(len(a))
-for i in a:
-    l = list(i.items())
-    ll = l[1:5]
-    t1 = zero(10, ll, 0, 1)
-    t2 = zero(10, ll, 1, 1)
-    t = f'Курс {t1} | {t2} btc |'
+a = gi.requeststack()
+b = round(float(a['asks'][0]['price'])-float(a['bids'][0]['price']), 2)
+per = round(b*100/float(a['bids'][0]['price']), 2)
+print(f"Дельта: {b}")
+print(f'{per}%')

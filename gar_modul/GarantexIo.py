@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import requests
 
 
@@ -11,10 +12,17 @@ class GarantexIo:
                          'currencies',
                          'timestamp',
                          'fees/withdraw/coin',
-                         'trades']
+                         'trades',
+                         'depth']
 
     def get_markets(self):
-        """Запрос возвращает список всех активных рынков"""
+        """Запрос возвращает список всех активных рынков вида: 
+        {'id': 'ethdai', 
+         'name': 'ETH/DAI', 
+         'ask_unit': 'eth', 
+         'bid_unit': 'dai', 
+         'min_ask': '0.00025', 
+         'min_bid': '0.1'}"""
         try:
             return requests.get(self.url+self.url_node[0]).json()
         except:
@@ -26,7 +34,6 @@ class GarantexIo:
         if type_curr in type_currencies:
             par = dict(type=type_curr)
             return requests.get(self.url + self.url_node[1], params=par).json()  
-            '''!!!!!!!!!ошибки!!!!!!!!!!!!'''
         else:
             for i in type_currencies:
                 par = dict(type=i)
@@ -50,6 +57,12 @@ class GarantexIo:
         """Запрос возвращает историю сделок по выбранному рынку. i ринимае значения вида btcrub"""
         mr = dict(market = i)
         return requests.get(self.url + self.url_node[4], params = mr).json()
+
+    def requeststack(self, i : str = 'btcrub'):
+        """Получаем массив цен стакан. Принимает тип маркета"""
+        mr = dict(market = i)
+        response_kurs = requests.get(self.url + self.url_node[5], params=mr)
+        return response_kurs.json()
 
     def get_trades(self, market_, ):
         pass
