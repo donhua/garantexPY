@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 import PySimpleGUI as sg
-
+import time
+exit()
 layout = [[sg.Output(size=(60,10))],
           [sg.Button('Go'), sg.Button('Exit')]  ]
 
@@ -14,8 +15,8 @@ while True:             # Event Loop
     if event == sg.WIN_CLOSED or event == 'Exit':
         break
     if event == 'Go':
-        '''Тут запуск мониторинга'''
-        print("Start monitoring")
-        print("================")
+        while True:
+            print(f"This time: {time.gmtime()}")
+            print("================")
 
 window.close()
