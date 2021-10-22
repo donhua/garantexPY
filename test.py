@@ -9,10 +9,7 @@ def zero(o : int, l : list, i: int, j : int):
     if o1 < 0:
         o1 = 0
     return l[i][j]+'0'*o1
-
-gi = GI()
-a = gi.requeststack()
-b = round(float(a['asks'][0]['price'])-float(a['bids'][0]['price']), 2)
-per = round(b*100/float(a['bids'][0]['price']), 2)
-print(f"Дельта: {b}")
-print(f'{per}%')
+w = 1
+for i in range(5):
+    w += 1
+    print(w)

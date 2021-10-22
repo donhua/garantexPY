@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import sqlite3 as sql
+from pathlib import Path
 import datetime
 import logging
 from sqlite3 import Connection
@@ -7,27 +8,27 @@ from sqlite3 import Connection
 
 class Gardb:
 
-    def __init__(self, db_path: str = 'db/', log_path: str = 'inf_log/', name_db1: str = 'gdb.db'):
+    def __init__(self):
         self.lg = logging
-        self.lg.basicConfig(filename=log_path+'app.log',
+        '''self.lg.basicConfig(filename=self.pathlog,
                             level=logging.INFO,
-                            format='%(asctime)s-%(levelname)s-%(message)s')
-        self.name_db = name_db1
-        self.db = None
-        self.db_path = db_path
-        self.backup_db_name: str = "backup.db"
-        self.backup_con = None
-        self.table_name: list = ['curensy', 'curensy_type', 'lot', 'kash']
+                            format='%(asctime)s-%(levelname)s-%(message)s')'''
+        self.db_file = 'gdb.db'
+        self.db_file_backup: str = "backup.db"
+        self.db_file_log: str = 'db.log'
+        self.db_dir = 'db'
+        self.db_dir_backup = 'backup'
+        self.db_dir_log = 'log'
         self.sq_table = [
-            f'''CREATE TABLE IF NOT EXISTS {self.table_name[0]}(
+            '''CREATE TABLE IF NOT EXISTS curensy(
                     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                     kur TEXT(5)
                     );''',
-            f'''CREATE TABLE IF NOT EXISTS {self.table_name[1]}(
+            '''CREATE TABLE IF NOT EXISTS curensy_type(
                     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                     type TEXT(5)
                     );''',
-            f'''CREATE TABLE IF NOT EXISTS {self.table_name[2]}(
+            '''CREATE TABLE IF NOT EXISTS lot(
                     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                     lot_Date TIMESTAMP,
                     lot_fiat REAL,
@@ -35,12 +36,18 @@ class Gardb:
                     coin_type INT,
                     exchange REAL
                     );''',
-            f'''CREATE TABLE IF NOT EXISTS {self.table_name[3]}(
+            '''CREATE TABLE IF NOT EXISTS kash(
                     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                     kash_Date TIMESTAMP,
                     kash_fiat REAL
                     );''',
         ]
+        self.db = None
+        self.backup_con = None
+    def create_tath(self):
+        if path.is_dir(self.pathlog):
+            path.rmdir(self.pathlog)
+            
 
     def connect_db(self):
         try:
@@ -61,9 +68,9 @@ class Gardb:
     def gar_backup(self, path: str = './backup/'):
         try:
             t = datetime.datetime.now()
-            self.db = sql.connect(self.db_path+self.name_db)
+            self.db = sql.connect(Path(self.db_path+self.name_db))
             self.backup_db_name = str(t) + "_" + self.name_db[:(len(self.name_db) - 3)] + '_backup.db'
-            self.backup_con: Connection = sql.connect(path + self.backup_db_name)
+            self.backup_con: Connection = sql.connectPath(Path(path + self.backup_db_name))
             with self.backup_con:
                 self.db.backup(self.backup_con, pages=3, progress=None)
             self.lg.info(f"Бекап {self.name_db} - успешно!")
@@ -110,9 +117,8 @@ class Gardb:
             self.lg.info(f'Закрытие базы {self.name_db} - успешно!')
 
 def mee():
-    n = Gardb('./db/', './inf_log/')
-    n.connect_db()
-    n.gar_backup('./backup/')
+    n = Gardb()
+    n.create_tath()
 
 
 if __name__ == '__main__':

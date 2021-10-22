@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from statistics import mean
 
-class CalculateFin1:
+class CalculateFin1_1:
     """Финансовый калькулятор"""
 
     def sum_invests(arr_invests: list = []):
